@@ -1,0 +1,14 @@
+﻿@page "/popup.html"
+@inherits BasePage
+@inject IJSRuntime JSRuntime
+
+<style>
+	body {
+		background-color: whitesmoke;
+	}
+</style>
+
+<div id="mainDiv">
+	<h3 id="title">Image Collector</h3>
+	<button id="collectButton" @onclick=CollectAllImages>Collect images</button>
+</div>

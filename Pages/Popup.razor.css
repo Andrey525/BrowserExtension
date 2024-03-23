@@ -1,0 +1,17 @@
+﻿div#mainDiv {
+    text-align: center;
+    width: 200px;
+}
+
+button#collectButton {
+    width: 100%;
+    color: black;
+    background: linear-gradient(#cecece, #828282);
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: darkslategrey;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Stencil';
+    cursor: pointer;
+}
